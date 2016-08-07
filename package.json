@@ -1,10 +1,13 @@
 {
-  "name": "articulatr",
+  "name": "ventr",
   "version": "1.0.0",
   "description": "articulatr app",
   "main": "app.js",
+  "engines": {
+    "node": "4.1.1"
+  },
   "scripts": {
-    "build" : "webpack -p",
+    "build": "webpack -p",
     "dev": "webpack -d --watch",
     "postinstall": "webpack -p --config ./webpack.config.js --progress --colors",
     "start": "node app.js",
