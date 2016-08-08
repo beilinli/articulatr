@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Articulatr</title>
     <% include ../partials/head %>
   </head>
 
   <body>
-    <% include ../partials/nav %>
-    <p>ejs-bootstrap</p>
+    <div class="container-fluid index-body">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-index">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand"><i class="fa fa-microphone"></i> Articulatr</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right navbar-right-index">
+            <li><a href="/about">About</a></li>
+            <li><a href="/register">Register</a></li>
+            <li><a href="/login">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="index-content">
+        <h1>Articulatr</h1>
+        <h3>Providing free, customizable pages for bloggers.</h3>
+        <a href="/register" class="btn btn-index-link">Get Started</a>
+        <a href="/about" class="btn btn-index-link">Learn More</a>
+      </div>
+    </div>
   </body>
 </html>
