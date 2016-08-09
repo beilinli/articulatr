@@ -1,0 +1,21 @@
+# Development TODO
+
+- [ ] Blog data
+  - [ ] blog homepages
+  - [ ] post pages
+  - [ ] comments
+  - [ ] stylize
+- [ ] Action prototype
+  - [ ] creation/deletion (posts, comments, blogs)
+  - [ ] edit (posts, comments, blogs)
+- [ ] Authentication
+  - [ ] user data storage
+  - [ ] register/login
+  - [ ] user homepage
+  - [ ] user settings
+  - [ ] integrate with actions
+- [ ] Customization
+  - [ ] user choice of styles
+  - [ ] markdown
+- [ ] Data storage
+  - [ ] better database, etc.
