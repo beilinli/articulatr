@@ -2,17 +2,17 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 /* index page */
 
-.index-body {
+#index-body {
   background-image: url("../img/mountains.jpg");
   height: 100%;
 }
 
-.index-content {
-  font-family: Arial, sans-serif;
+#index-content {
   color: white;
   position: absolute;
   top: 50%;
@@ -21,7 +21,7 @@ html, body {
   text-align: center;
 }
 
-.index-content h1 {
+#index-content h1 {
   font-size: 50px;
   font-weight: bold;
 }
@@ -37,39 +37,66 @@ html, body {
 }
 
 /* about page */
-.about-content {
+#about-content {
   color: #FF5A00;
   margin-top: 5%;
 }
 
-.about-content h1 {
+#about-content h1 {
   font-size: 48px;
   text-align: center;
 }
 
-.about-content hr {
+#about-content hr {
   width: 10%;
   height: 5px;
   background-color: #FF5A00;
   align: center;
 }
 
-.about-content .row {
+#about-content .row {
   margin-top: 40px;
   font-size: 20px;
 }
 
-.about-content p {
+#about-content p {
   margin-top: 30px;
   text-align: center;
 }
 
-.about-content p a {
+#about-content p a {
   color: #FF5A00;
 }
 
-.about-content p a:link {
+#about-content p a:link {
   text-decoration: underline;
+}
+
+/* login, registration page */
+.auth-content {
+  margin-top: 15%;
+}
+
+.auth-content .panel-heading {
+  font-size: 24px;
+  text-align: center;
+}
+
+.auth-content button a {
+  color: white;
+}
+
+.auth-content button a:link {
+  text-decoration: none;
+}
+
+#login-submit {
+  width: 40%;
+  margin-right: 3%;
+}
+
+#login-reg-link {
+  width: 50%;
 }
 
 /* navbar props */
@@ -101,4 +128,18 @@ html, body {
 .navbar-default .navbar-right-about > li > a {
   text-transform: uppercase;
   color: #FF5A00;
+}
+
+.navbar-login {
+  background-color: #0080FF;
+  font-weight: bold;
+}
+
+.navbar-login .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-right-login > li > a {
+  text-transform: uppercase;
+  color: white;
 }

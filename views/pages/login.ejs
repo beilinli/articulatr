@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Articulatr</title>
+    <% include ../partials/head %>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-default navbar-fixed-top navbar-login">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href='/'><i class="fa fa-microphone"></i> Articulatr</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right navbar-right-login">
+            <li><a href="/about">About</a></li>
+            <li><a href="/register">Register</a></li>
+            <li><a href="/login">Login</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row auth-content">
+        <div class="col-sm-4 col-sm-offset-4">
+          <div class="panel panel-primary">
+            <div class="panel-heading">Log in to Articulatr</div>
+            <div class="panel-body">
+              <form role="form" action="/api/login" method="post">
+                <div class="form-group">
+                  <label for="login-usr">Username</label>
+                  <input type="text" class="form-control" id="login-usr" name="username">
+                </div>
+                <div class="form-group">
+                  <label for="login-pwd">Password</label>
+                  <input type="password" class="form-control" id="login-pwd" name="password">
+                </div>
+                <div class="login-buttons">
+                  <button type="submit" class="btn btn-success" id="login-submit">Sign in</button>
+                  <a href="/register" class="btn btn-primary" role="button" id="login-reg-link">Create account</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
