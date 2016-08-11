@@ -4,6 +4,8 @@ html, body {
   margin: 0;
 }
 
+/* index page */
+
 .index-body {
   background-image: url("../img/mountains.jpg");
   height: 100%;
@@ -34,17 +36,69 @@ html, body {
   font-weight: bold;
 }
 
-.navbar-index {
-  background-color: transparent;
-  border-color: transparent;
-  font-weight: bold;
+/* about page */
+.about-content {
+  color: #FF5A00;
+  margin-top: 5%;
 }
 
-.navbar-default .navbar-right-index >li>a {
+.about-content h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.about-content hr {
+  width: 10%;
+  height: 5px;
+  background-color: #FF5A00;
+  align: center;
+}
+
+.about-content .row {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.about-content p {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.about-content p a {
+  color: #FF5A00;
+}
+
+.about-content p a:link {
+  text-decoration: underline;
+}
+
+/* navbar props */
+
+.navbar-index {
+  background-color: transparent;
+  font-weight: bold;
+  border-color: #DCDCDC;
+}
+
+.navbar-default .navbar-right-index > li > a {
   text-transform: uppercase;
   color: darkblue;
 }
 
 .navbar-index .navbar-brand {
   color: darkblue;
+}
+
+.navbar-about {
+  background-color: white;
+  font-weight: bold;
+}
+
+.navbar-about .navbar-brand {
+  color: #FF5A00;
+}
+
+.navbar-default .navbar-right-about > li > a {
+  text-transform: uppercase;
+  color: #FF5A00;
 }
